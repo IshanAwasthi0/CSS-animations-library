@@ -1,0 +1,17 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #ff6e6e;
+    border-radius: 5px;
+    margin: 50px auto;
+    animation: slide-in-up 1s cubic-bezier(0.98, -0.02, 0.47, 0.74) forwards;
+}
+
+@keyframes slide-in-up {
+    from {
+        transform: translateY(300px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
