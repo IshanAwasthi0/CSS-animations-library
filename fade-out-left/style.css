@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #ff6e6e;
+    border-radius: 5px;
+    margin: 50px auto;
+    animation: fade-out-left 1s ease-in-out forwards;
+}
+
+@keyframes fade-out-left {
+    from {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+}
